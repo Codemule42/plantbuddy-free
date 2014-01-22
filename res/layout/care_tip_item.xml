@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="2dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/dark_grey_rounded_all_corners"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/care_tip_text_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/dark_grey_rounded_all_corners"
+            android:text=""
+            android:textColor="@color/light_grey"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold" />
+
+    </LinearLayout>

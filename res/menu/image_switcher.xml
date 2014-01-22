@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/set_as_thumbnail"
+          android:title="Set as Thumbnail"/>
+    <item android:id="@+id/remove_image"
+          android:title="Remove Image" />
+    <item android:id="@+id/share_to_facebook" android:title="@string/share_to_fb"></item>
+    <item android:id="@+id/add_from_gallery" android:title="Add from Gallery"></item>
+</menu>

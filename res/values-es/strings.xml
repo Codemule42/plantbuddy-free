@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Plant Buddy</string>
+	<string name="one">1</string>
+	
+	<string-array name="time_quantity">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+		<item>24</item>
+		<item>25</item>
+		<item>26</item>
+		<item>27</item>
+		<item>28</item>
+		<item>29</item>
+		<item>30</item>
+		<item>31</item>
+	</string-array>
+	
+	<string-array name="time_uom">
+		<item>Días</item>
+		<item >Semanas</item>
+		<item>Meses</item>
+		<item>Estaciones</item>
+		<item>Años</item>
+	</string-array>
+	<string name="alarm_notification">Sus plantas que necesita!</string>
+	<string name="edit_description">Edite Descripción</string>
+	<string name="edit_aquisiton_date">Edite Fecha de Adquisición</string>
+	<string name="edit_source">Edite Origen</string>
+	<string name="add_care_tip">Añada Consejo de Cuidado</string>
+	<string name="edit_care_tip">Edite Consejo de Cuidado</string>
+	<string name="remove_care_tip">Remueva Consejo de Cuidado</string>
+	<string name="add_plant">Añada Planta</string>
+	<string name="add_note">Añada Nota / Fecha Importante</string>
+	<string name="new_note">Nueva Nota / Fecha Importante</string>
+	<string name="edit_note">Edite Nota / Fecha Importante</string>
+	<string name="remove_note">Remueva Nota / Fecha Importante</string>
+	<string name="add_alarm">Añada Alarma</string>
+	<string name="new_alarm">Nueva Alarma</string>
+	<string name="edit_alarm">Edite Alarma</string>
+	<string name="remove_alarm">Remueva Alarma</string>
+	<string name="reset_recurring_alarm">Restablesca la Alarma Recurrente</string>
+	<string name="no_reset_one_time_alarm">Una alarma de tiempo no se puede restablecer.</string>
+	<string name="remove_link">Remueva Enlace</string>
+	<string name="add_link">Añada Enlace</string>
+	<string name="new_link">Nuevo Enlace</string>
+	<string name="edit_link">Edite Enlace</string>
+	<string name="my_plants">Mis Plantas</string>
+	<string name="start_date">Fecha de Comienzo:</string>
+	<string name="aquired_from">Adquirido de:</string>
+	<string name="plant_name_colon">Nombre De Planta:</string>
+	<string name="date_aquired_colon">Fecha de Compra:</string>
+	<string name="source_colon">Origen:</string>
+	<string name="desctiption">Descripción:</string>
+	<string name="about">Sobre</string>
+	<string name="aquired_on">Fecha de Adquisición</string>
+	<string name="source">Origen</string>
+	<string name="images">Imagenes</string>
+	<string name="care_tip">Consejos de Cuidado</string>
+	<string name="notes">Notas / Fechas Importantes</string> 
+	<string name="alarms">Alarmas</string>
+	<string name="links">Enlaces</string>
+	<string name="reminder">Aviso</string>
+	<string name="reminde_me_every">Aviseme cada:</string>
+	<string name="from_today">desde hoy.</string>
+	<string name="remind_me_once">Aviseme una vez en este día:</string>
+	<string name="cancel">Cancelar</string>
+	<string name="ok">Aceptar</string>
+	<string name="confirm_remove">¿Está seguro que desea eliminar esta planta?</string>
+	<string name="yes">Sí</string>
+	<string name="no">No</string>
+	<string name="new_care_tip">Nueva Consejo de Cuidado</string>
+	<string name="select_plant">Seleccione planta</string>
+	<string name="new_plant">Nueva Planta</string>
+	<string name="plant_name">Nombre de Planta:</string>
+	<string name="date_purchased">Fecha de compra:</string>
+</resources>

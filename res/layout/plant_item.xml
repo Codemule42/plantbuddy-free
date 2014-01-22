@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/rounded_all_corners"
+    android:orientation="horizontal"
+    android:weightSum="1.0" >
+
+    <ImageView
+        android:id="@+id/plant_imageview"
+        android:layout_width="80dp"
+        android:layout_height="fill_parent"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:background="@drawable/rounded_left_corners"
+        android:src="@android:drawable/alert_light_frame" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="0dp"
+        android:layout_weight="0.85"
+        android:layout_height="fill_parent"
+        android:background="@color/dark_grey"
+        android:orientation="vertical"
+        android:paddingBottom="5dp" >
+
+        <TextView
+            android:id="@+id/plant_textview_plant_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_grey"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/plant_textview_plant_age"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_grey"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/plant_textview_plant_source"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_grey"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/plant_textview_plant_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_grey"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/plant_list_alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.15" 
+        android:background="@color/dark_grey"/>
+        
+</LinearLayout>

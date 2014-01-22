@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reverse_gradients"
+    android:gravity="fill_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/plant_list_header_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradients"
+            android:src="@drawable/plantbuddy" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="202dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.90"
+            android:background="@drawable/gradients"
+            android:gravity="center"
+            android:text="@string/my_plants"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <!--
+          <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:text="@string/plant_list_favorite_plants_label"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_top_corners"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    -->
+
+    <GridView
+        android:id="@+id/plant_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:numColumns="1"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+
+s<LinearLayout
+        android:id="@+id/plant_list_ad_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <com.google.ads.AdView
+            android:id="@+id/plant_list_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="a150a3ba6856643"
+            ads:loadAdOnCreate="true"
+            ads:testDevices="TEST_EMULATOR,040369921202400B,043c7086445fc217,1087C704A26AE9F75C7E166847E87DDA"
+            android:gravity="center" />
+    </LinearLayout>
+</LinearLayout>
